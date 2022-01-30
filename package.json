@@ -1,0 +1,27 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "App created to learn various concepts in Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepaklokare24/nodeapp.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node"
+  ],
+  "author": "Deepak Lokare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepaklokare24/nodeapp/issues"
+  },
+  "homepage": "https://github.com/deepaklokare24/nodeapp#readme",
+  "dependencies": {
+    "mongoose": "^6.1.8",
+    "underscore": "^1.13.2"
+  }
+}

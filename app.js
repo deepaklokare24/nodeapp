@@ -3,7 +3,7 @@ const path = require("path");
 const os = require("os");
 const fs = require("fs");
 const http = require("http");
-
+const _ = require("underscore");
 const logger = new Logger();
 
 console.log(__dirname);
@@ -47,6 +47,10 @@ const server = http.createServer((req, res) => {
   }
 
   if (req.url === "/api/courses") {
+    let courses = [1, 3, 2, 5];
+    let doesContains = _.contains(courses, 4);
+    console.log("Does courses contain id with 4? ", doesContains);
+
     res.write(JSON.stringify([1, 2, 3]));
     res.end();
   }

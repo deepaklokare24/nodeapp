@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/deepaklokare24/nodeapp#readme",
   "dependencies": {
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
     "mongoose": "^6.1.8",
     "underscore": "^1.13.2"
   }
